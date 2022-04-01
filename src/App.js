@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Scatterplot from './Scatterplot';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Doping in Professional Bicycle Racing</h2>
+      <p>35 Fastest times up Alpe d'Huez</p>
+      <Scatterplot/>
     </div>
   );
 }
